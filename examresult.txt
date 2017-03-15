@@ -1,0 +1,3 @@
+if result more than 4o =pass
+if result is less than 40 =fail
+
