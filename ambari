@@ -1,0 +1,39 @@
+1. Understand the Basics
+
+Hadoop consists of three layers of components. A coordinated and tested set of these components is sometimes referred to as the Stack.
+
+Core Hadoop: The basic components of Apache Hadoop.
+
+Hadoop Distributed File System (HDFS): A special purpose file system designed to work with the MapReduce engine. It provides high-throughput access to data in a highly distributed environment.
+
+MapReduce: A framework for performing high volume distributed data processing using the MapReduce programming paradigm.
+
+Essential Hadoop: : A set of Apache components designed to ease working with Core Hadoop.
+
+Apache Pig A platform for creating higher level data flow programs that can be compiled into sequences of MapReduce programs, using Pig Latin, the platform’s native language.
+
+Apache Hive: A tool for creating higher level SQL queries using HiveQL, the tool’s native language, that can be compiled into sequences of MapReduce programs.
+
+Apache HCatalog: A metadata abstraction layer that insulates users and scripts from how and where data is physically stored.
+
+WebHCat: A component that provides a set of REST APIs for HCatalog and related Hadoop components. Originally named Templeton.
+
+Apache HBase: A distributed, column-oriented database that provides the ability to access and manipulate data randomly in the context of the large blocks that make up HDFS.
+
+Apache ZooKeeper: A centralized tool for providing services to highly distributed systems. ZooKeeper is necessary for HBase installations.
+
+Hadoop Support: A set of components that allow you to monitor your Hadoop installation and to connect Hadoop with your larger compute environment.
+
+Apache Oozie: A server based workflow engine optimized for running workflows that execute Hadoop jobs.
+
+Apache Sqoop: A component that provides a mechanism for moving data between Hadoop and external structured data stores. Can be integrated with Oozie workflows.
+
+Ganglia: An Open Source tool for monitoring high-performance computing systems.
+
+Nagios: An Open Source tool for monitoring systems, services, and networks.
+
+You must always install HDFS, but you can select components from the other layers based on your needs.
+
+
+
+
