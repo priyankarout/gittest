@@ -1,0 +1,9 @@
+---
+- hosts: '{{ target }}'
+  tasks:
+   - name: check service status
+     shell: service --status-all
+     register: output
+   - name: print service output
+     debug: var=output.stdout_lines
+
